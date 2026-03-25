@@ -1,16 +1,35 @@
-# Compiled class file
+# Build output
+target/
+build/
+out/
 *.class
 
-# Log file
+# IDE files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gateway runtime data
+gateway-data/
+
+# Maven
 *.log
+dependency-reduced-pom.xml
 
-# BlueJ files
-*.ctxt
+# Java crash logs
+hs_err_pid*
+replay_pid*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,6 +38,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# BlueJ / J2ME
+*.ctxt
+.mtj.tmp/
